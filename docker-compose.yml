@@ -1,0 +1,6 @@
+services:
+  fores_api:
+    build: .
+    container_name: 'exam-api'
+    ports:
+      - "8080:8080"
